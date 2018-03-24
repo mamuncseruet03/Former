@@ -43,7 +43,7 @@ open class FormSelectorPickerCell: FormCell, SelectorPickerFormableRow {
         super.setup()
         
         let titleLabel = UILabel()
-        titleLabel.setContentHuggingPriority(UILayoutPriority(rawValue: 500), for: .horizontal)
+        titleLabel.setContentHuggingPriority(500, for: .horizontal)
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         contentView.insertSubview(titleLabel, at: 0)
         self.titleLabel = titleLabel

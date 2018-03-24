@@ -52,6 +52,7 @@
 		2AA777A91BED099000900B01 /* CustomViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA777A81BED099000900B01 /* CustomViewFormer.swift */; };
 		2AA795621BBC3A4D005949B9 /* BaseRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA795611BBC3A4D005949B9 /* BaseRowFormer.swift */; };
 		2AF88D8F1BD92B8B00CFFDAC /* FormerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF88D8E1BD92B8B00CFFDAC /* FormerProtocol.swift */; };
+		E621A0C4206660DA00FC89A7 /* ValidatorFormerRowTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E621A0C3206660DA00FC89A7 /* ValidatorFormerRowTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +103,7 @@
 		2AA777A81BED099000900B01 /* CustomViewFormer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewFormer.swift; sourceTree = "<group>"; };
 		2AA795611BBC3A4D005949B9 /* BaseRowFormer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRowFormer.swift; sourceTree = "<group>"; };
 		2AF88D8E1BD92B8B00CFFDAC /* FormerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormerProtocol.swift; sourceTree = "<group>"; };
+		E621A0C3206660DA00FC89A7 /* ValidatorFormerRowTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorFormerRowTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 		2A65660A1BA4427D00C78E81 /* RowFormers */ = {
 			isa = PBXGroup;
 			children = (
+				E621A0C3206660DA00FC89A7 /* ValidatorFormerRowTextField.swift */,
 				2AA795611BBC3A4D005949B9 /* BaseRowFormer.swift */,
 				2AA7779C1BEB55DF00900B01 /* CustomRowFormer.swift */,
 				2A65660B1BA4427D00C78E81 /* CheckRowFormer.swift */,
@@ -314,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E621A0C4206660DA00FC89A7 /* ValidatorFormerRowTextField.swift in Sources */,
 				2A3365BE1BBDB41100603F71 /* ViewFormer.swift in Sources */,
 				2A3365BD1BBDB40800603F71 /* RowFormer.swift in Sources */,
 				2AF88D8F1BD92B8B00CFFDAC /* FormerProtocol.swift in Sources */,
